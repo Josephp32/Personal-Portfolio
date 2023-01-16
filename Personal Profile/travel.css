@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 122, 122);
+}
+
+.nav{
+    display: flex;
+    position: fixed;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    padding: 40px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: first baseline;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 160px;
+    flex-direction: column;
+}
+
+
+a{
+    color: aliceblue;
+}
+
+.end{
+    font-family: 'Times New Roman', Times, serif;
+    background: fixed black;
+    color: aliceblue;
+    padding: 30px;
+}
